@@ -1,11 +1,10 @@
-import telebot
+﻿import telebot
 from datetime import datetime
 from datetime import timedelta
 from datetime import time
 import math
 import time
 
-bot = telebot.TeleBot('870369247:AAEZwx6__BaRmz-ivxkZO-_WCoYz7lMny5E')
 
 #@bot.message_handler(commands=['leysan_end_of_working_day_timer'])
 @bot.message_handler(content_types=["text"])
